@@ -1,0 +1,21 @@
+.box{
+    border: 20px solid ;
+    border-top-color: yellow;
+    border-bottom-color: red;
+    border-left-color: black ;
+    border-right-color: green;
+}
+.container{
+    background-color: white; 
+    margin: 70%;
+    
+    
+}
+
+
+@media screen and(max-width:1000) {
+    .container{
+        background-color: white; 
+        margin: 50%;
+    }
+}
